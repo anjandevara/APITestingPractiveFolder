@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="softwaretestingmaterial" duration-ms="5693" started-at="2018-03-12T07:05:18Z" finished-at="2018-03-12T07:05:24Z">
+    <groups>
+    </groups>
+    <test name="testngTest" duration-ms="5693" started-at="2018-03-12T07:05:18Z" finished-at="2018-03-12T07:05:24Z">
+      <class name="APITesting.com.org.api.WeatherAPIGetRequest">
+        <test-method status="PASS" signature="How_to_handle_GET_request()[pri:0, instance:APITesting.com.org.api.WeatherAPIGetRequest@3e6fa38a]" name="How_to_handle_GET_request" duration-ms="4064" started-at="2018-03-12T07:05:18Z" finished-at="2018-03-12T07:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- How_to_handle_GET_request -->
+        <test-method status="PASS" signature="find_City_By_ID()[pri:0, instance:APITesting.com.org.api.WeatherAPIGetRequest@3e6fa38a]" name="find_City_By_ID" duration-ms="4058" started-at="2018-03-12T07:05:18Z" finished-at="2018-03-12T07:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- find_City_By_ID -->
+        <test-method status="PASS" signature="Using_parameters_and_Authorization()[pri:0, instance:APITesting.com.org.api.WeatherAPIGetRequest@3e6fa38a]" name="Using_parameters_and_Authorization" duration-ms="4049" started-at="2018-03-12T07:05:18Z" finished-at="2018-03-12T07:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Using_parameters_and_Authorization -->
+        <test-method status="PASS" signature="Extracting_Actual_Results_form_API()[pri:0, instance:APITesting.com.org.api.WeatherAPIGetRequest@3e6fa38a]" name="Extracting_Actual_Results_form_API" duration-ms="5592" started-at="2018-03-12T07:05:18Z" finished-at="2018-03-12T07:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extracting_Actual_Results_form_API -->
+      </class> <!-- APITesting.com.org.api.WeatherAPIGetRequest -->
+    </test> <!-- testngTest -->
+  </suite> <!-- softwaretestingmaterial -->
+</testng-results>
