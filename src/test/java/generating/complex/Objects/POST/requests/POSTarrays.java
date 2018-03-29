@@ -8,7 +8,7 @@ import io.restassured.response.Response;
 
 public class POSTarrays {
 
-	@Test(priority=1)
+	@Test
 	public void postArra() {
 		_Info info1 = new _Info();
 		info1.setEmail("test2@innominds.com");

@@ -2,9 +2,29 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="softwaretestingmaterial" parallel="methods"
 	thread-count="4">
-	<test name="testngTest">
+	<test name="Test1">
 		<classes>
-			<class name="APITesting.com.org.api.WeatherAPIGetRequest" />
+			<class name="APITesting.com.org.api.POSTarrays" />
 		</classes>
 	</test>
+	<test name="Test2">
+		<classes>
+			<class name="APITesting.com.org.api.WeatherAPIGetRequest"/>
+		</classes>
+	</test>
+	<test name="Test3">
+		<classes>
+			<class name="APITesting.com.org.api.Complex_Post"/>
+		</classes>
+	</test>
+	<test name="Test4">
+		<classes>
+			<class name="APITesting.com.org.api.ResponseTime"/>
+		</classes>
+	</test>	
+		<test name="Test5">
+		<classes>
+			<class name="APITesting.com.org.api.JsonServerRequests"/>
+		</classes>
+	</test>	
 </suite>

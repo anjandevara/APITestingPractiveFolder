@@ -10,7 +10,7 @@ public class Post3 {
 	Post2 post2 = new Post2();
 
 	// POST the data dynamically to the API
-	// @Test
+	@Test(priority=1)
 	public void test_Post2() {
 		post2.setId("3");
 		post2.setTitle("This is 3rd Title");
@@ -22,7 +22,7 @@ public class Post3 {
 	}
 
 	// PUT or UPDATE the data dynamically to the API
-	// @Test
+	@Test(priority=2)
 	public void test_PUT() {
 		post2.setId("2");
 		post2.setTitle("Updated Title");
@@ -35,7 +35,7 @@ public class Post3 {
 	}
 
 	// PATCH or Update a particular element in API
-	// @Test
+	@Test(priority=3)
 	public void test_PATCH() {
 		Response respose = RestAssured.given().body("{\"title\":\"Title Patched\"}").when()
 				.contentType(ContentType.JSON).patch("http://localhost:3000/posts/3");
@@ -43,7 +43,7 @@ public class Post3 {
 	}
 
 	// Delete a record from the API
-	@Test
+	@Test(priority=4)
 	public void test_DELETE() {
 		Response respose = RestAssured.given().when().delete("http://localhost:3000/posts/3");
 		System.out.println("Deleting response" + respose.asString());
